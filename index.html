@@ -5,30 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun Gym Facts</title>
     <style>
-        /* MODERN LAYOUT TECHNIQUES */
-
-        /* We'll primarily use Flexbox for this layout */
-
-        /* MODERN STYLING TECHNIQUES */
-
-        /* CSS Variables (Custom Properties) */
-        :root {
-          --primary-color: #4CAF50; /* Green for gym theme */
-          --background-color: #f0f0f0;
-          --container-background: #fff;
-        }
-
         body {
             font-family: sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-color: var(--background-color); 
+            background-color: #f0f0f0;
         }
     
         .container {
-            background-color: var(--container-background); 
+            background-color: #fff;
             padding: 30px;
             border-radius: 5px;
             text-align: center;
@@ -38,31 +25,12 @@
         button {
             padding: 10px 20px;
             font-size: 16px;
-            background-color: var(--primary-color);
+            background-color: #4CAF50;
             color: white;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.3s ease; /* Smooth transition */
         }
-
-        button:hover {
-          background-color: #45a049; /* Darker green on hover */
-        }
-
-        /* Optional: Add a spinning animation to the button (just for fun) */
-        @keyframes spin {
-            from {
-              transform: rotate(0deg);
-            }
-            to {
-              transform: rotate(360deg);
-            }
-          }
-          
-          button:hover {
-            animation: spin 2s linear infinite; 
-          }
     </style>
 </head>
 <body>
