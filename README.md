@@ -14,7 +14,7 @@ This simple website displays a random fun fact about the gym every time you clic
 
 ## Try it Out! 🚀
 
-You can see the live website here: [https://your-username.github.io/gym-facts/](https://your-username.github.io/gym-facts/) (Replace `your-username` with your GitHub username and `gym-facts` with your repository name).
+You can see the live website here: [https://bharat3214.github.io/gym-facts/](https://bharat3214.github.io/gym-facts/)
 
 ## Contributing 🤝
 
