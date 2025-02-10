@@ -14,7 +14,7 @@ This simple website displays a random fun fact about the gym every time you clic
 
 ## Try it Out! 🚀
 
-You can see the live website here: [https://bharat3214.github.io/gym-facts/](https://bharat3214.github.io/gym-facts/)
+You can see the live website here: [https://bharat3214.github.io/genai_peices_project/](https://bharat3214.github.io/genai_peices_project/)
 
 ## Contributing 🤝
 
