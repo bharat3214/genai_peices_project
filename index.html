@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Gym Facts</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+    
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Did You Know?</h1>
+        <p id="fact-display"></p>
+        <button id="new-fact">New Fact</button>
+    </div>
+    <script>
+        const facts = [
+            "The word 'gymnasium' comes from the Greek word 'gymnos,' meaning 'naked.'",
+            "The first modern gym opened in Denmark in 1804.",
+            "The treadmill wasn't originally for exercise!",
+            "The average person spends about 6 months of their life working out.",
+            "The heaviest weight ever lifted by a human is over 1,000 pounds!",
+            "Listening to music can improve your workout by up to 15%.",
+            "The 'smell of exercise' comes from bacteria, not sweat.",
+            "You burn more calories on Monday than any other day of the week.",
+            "Regular exercise can actually help you grow new brain cells.",
+            "The world's largest gym is located in South Korea."
+        ];
+
+        const factDisplay = document.getElementById('fact-display');
+        const newFactButton = document.getElementById('new-fact');
+
+        newFactButton.addEventListener('click', () => {
+            const randomIndex = Math.floor(Math.random() * facts.length);
+            factDisplay.textContent = facts[randomIndex];
+        });
+
+        // Display an initial fact on page load
+        newFactButton.click(); 
+    </script>
+</body>
+</html>
+
